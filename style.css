@@ -1,0 +1,116 @@
+/* Style for the overall body */
+/* Style for the overall body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Fallback color if the image is not loaded */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/31/ca/2b/31ca2bcf105003bf97be1aaf9e564df6.jpg"); /* Background image URL */
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image in the viewport */
+  background-repeat: no-repeat; /* Do not repeat the image */
+}
+/* Style for the form box */
+.form-box {
+  background-color: rgb(230, 231, 222);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for form elements */
+.form-value form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for input boxes */
+.inputbox {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.inputbox input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputbox label {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  transition: 0.3s;
+  pointer-events: none;
+  color: #999;
+}
+
+.inputbox input:focus + label,
+.inputbox input:valid + label {
+  top: -10px;
+  left: 10px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Style for the submit button */
+button {
+  background-color: #0dff00;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #51b300;
+}
+
+/* Style for additional links */
+.login-link p {
+  text-align: center;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(30, 132, 27);
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

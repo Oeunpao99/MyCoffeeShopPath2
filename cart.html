@@ -1,0 +1,30 @@
+<!-- cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+  <ul>
+    <?php
+    session_start();
+
+    if (isset($_SESSION['cart'])) {
+      foreach ($_SESSION['cart'] as $item) {
+        echo '<li>';
+        echo 'Coffee: ' . $item['coffee'] . '<br>';
+        echo 'Size: ' . $item['size'] . '<br>';
+        echo 'Sugar Level: ' . $item['sugar_level'] . '<br>';
+        echo 'Quantity: ' . $item['quantity'] . '<br>';
+        echo '</li>';
+      }
+    } else {
+      echo '<li>Your cart is empty</li>';
+    }
+    ?>
+  </ul>
+</body>
+</html>

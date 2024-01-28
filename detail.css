@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://img.freepik.com/free-photo/cup-coffee-table-front-street-with-city-lights-background_188544-10293.jpg");
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #20de0e;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #139dbc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #0b2bbc;
+}
+
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: #f3f3f3;
+  padding: 10px 20px;
+  border: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #d72020;
+}
+
+#total-price {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #bfb112;
+  border-radius: 4px;
+}

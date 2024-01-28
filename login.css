@@ -1,0 +1,155 @@
+@import url("https//fonts.googleapis.com/css?family=Open+Sans:400");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif; /* Fix the font family name */
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw; /* Fix the width value */
+  background-image: url("https://i.pinimg.com/originals/31/ca/2b/31ca2bcf105003bf97be1aaf9e564df6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease; /* Add transition for transform */
+}
+
+.form-box:hover {
+  transform: scale(1.05); /* Add scale on hover for a cool effect */
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(58, 223, 49);
+  text-align: center;
+  transition: color 0.3s ease; /* Add transition for color */
+}
+
+h2:hover {
+  color: rgb(255, 0, 0); /* Change color on hover */
+}
+
+.inputbox {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid rgb(123, 225, 7);
+}
+
+.inputlabel {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(50%);
+  color: rgb(172, 172, 10);
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputbox:hover .inputlabel {
+  color: rgb(255, 255, 0); /* Change label color on hover */
+}
+
+.inputbox input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: rgb(222, 246, 6);
+}
+
+.inputbox ion-icon {
+  position: absolute;
+  right: 8px;
+  color: rgb(8, 38, 232);
+  font-size: 1.2em;
+  top: 20px;
+  transition: color 0.3s ease; /* Add transition for color */
+}
+
+.inputbox:hover {
+  border-bottom-width: 3px; /* Increase border width on hover */
+  border-bottom-color: rgb(255, 255, 0); /* Change border color on hover */
+}
+
+
+.forget {
+  margin: 15px 0 15px;
+  font-size: 0.9em;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+
+.forget:hover {
+  transform: scale(1.0.1); /* Add scale on hover for a cool effect */
+}
+
+.forget label input {
+  margin-right: 3px;
+}
+
+.forget label a {
+  color: azure;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Add transition for color */
+}
+
+.forget label a:hover {
+  color: rgb(0, 255, 255); /* Change link color on hover */
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: greenyellow;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+  transition: background 0.3s ease; /* Add transition for background */
+}
+
+button:hover {
+  background: rgb(6, 218, 169); /* Change background color on hover */
+}
+
+.register {
+  font-size: 0.9em;
+  color: rgb(247, 246, 246);
+  text-align: center;
+  margin: 25px 0 10px;
+  transition: color 0.3s ease; /* Add transition for color */
+}
+
+.register:hover {
+  color: rgba(255, 255, 0, 0.689); /* Change color on hover */
+}
+
+.register p {
+  color: rgb(249, 249, 249);
+  font-weight: 600;
+}
+
+.register p a:hover {
+  text-decoration: underline;
+}

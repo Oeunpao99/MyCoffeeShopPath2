@@ -1,0 +1,87 @@
+/* order_confirmation.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  #order-details {
+    background-color: #258792;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(210, 19, 19, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  #confirmation-message {
+    background-color: #21c166;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+  }
+  
+  #confirmation-message p {
+    margin: 0;
+  }
+  
+  /* Add more styles as needed to customize the appearance of your page */
+/* Add this CSS to your order_confirmation.css file */
+#confirmation-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px;
+  color: #663591; /* Choose your desired text color */
+  font-family: khaki;
+}
+
+#confirmation-message p {
+  margin-bottom: 10px;
+}
+
+#confirmation-message a {
+  text-decoration: none;
+  background-color: #ff6600; /* Choose your desired background color */
+  color: #fff; /* Choose your desired text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#confirmation-message a:hover {
+  background-color: #ff9933; /* Choose your desired background color on hover */
+}
+.btn_back{
+  color: rgb(42, 165, 67);
+  background-color: rgb(172, 190, 128);
+  width: 250px;
+  height: 25px;
+  text-align: center;
+  margin: 0 255px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+  
+  
+}
+.btn_back a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+  font-family: khaki;
+}
+.btn_back:hover{
+  background-color: rgb(213, 164, 78);
+}
